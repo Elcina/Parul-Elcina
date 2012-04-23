@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#696969;
+        style="background-color:#0F00FF;
+	background-repeat:repeat-x;
+	//font-family:Verdana,Arial,Helvetica,sans-serif;
+	//font-size:11px;
+	margin:0px;
+	background-position:top;
+	text-align:left;
+	//color:#00ff00;
+}
+#logo
+{
+        background-color:#E0FFFF;	
+        height:120px;
+	width:1000px;
+	//position:relative;
+	margin-top:50px;
+	margin-left:100px;
+	text-align:center;
+      
+}
+
+#links
+{
+
+        width:940px;
+	background-color:#B0E0E6;	
+        padding-left:60px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:12px;
+	
+	margin-left:100px;
+	
+	text-transform:uppercase;
+       
+}
+#links a
+{
+
+	color:#000080;
+	
+	margin-left:75px;
+}
+#links a:hover
+{
+	
+color:#1E90FF;
+
+}
+
+#history
+{
+background-color:#E0FFFF;	
+	margin-left:100px;	
+	width:500px;
+        height:800px;
+	float:left;
+border-style:dotted;
+
+	
+}
+
+#history p,h1,img
+{
+padding-top:15px;
+padding-bottom:15px;
+padding-right:15px;
+padding-left:15px;
+}
+#courses
+{
+border-style:dotted;
+position:absolute;
+top:205px;
+right:159px;
+background-color:#E0FFFF;	
+//margin-left:600px;
+width:500px;
+height:800px;
+
+}
+
+#courses p,h3
+{
+padding-top:15px;
+padding-bottom:15px;
+padding-right:15px;
+padding-left:15px;
+}
+
+#courses a
+{
+
+	color:#000080;
+	
+}
+#courses a:hover
+{
+	
+color:#1E90FF;
+
+}
+
+#maincontent
+{
+//border-style:solid;
+	
+}
+
