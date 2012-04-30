@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+background-image:url('bk2.jpg');
+}
+
+#container{
+// background-color:#696969;
+background:rgba(105,105,105,0.7);
+width:1100px; 
+height:1400px;
+margin:0 auto;
+margin-top:30px;
+margin-bottom:30px;
+}
+#topbar
+{
+background-image:url('topbar2.jpg');
+ background-color:#696900;
+//width:auto;
+width:1100px; 
+display:inline-block; 
+height:40px;
+margin:0px;
+padding:0px;
+}
+#navbar
+{
+// background-color:#696969;
+//background:rgba(105,105,105,0.3);
+//width:auto; 
+display:inline-block; 
+width:1000px; 
+height:170px;
+margin:0px;
+padding:0px;
+}
+/*#navbar h2
+{
+padding-top:25px;
+padding-bottom:15px;
+padding-right:15px;
+padding-left:8px
+//-webkit-transform: rotate(90deg);	
+//-moz-transform: rotate(90deg);
+//-ms-transform: rotate(90deg);
+//-o-transform: rotate(90deg);
+//transform: rotate(90deg);
+}*/
+#navbar img
+{
+position:absolute;
+padding-top:25px;
+padding-bottom:15px;
+padding-right:15px;
+padding-left:8px
+//z-index:-1;
+}
+#navbar a
+{
+float:right;
+    color:#ffffff;
+       margin-top:25px;
+    margin-right:75px;
+text-decoration: none;
+   text-transform:uppercase;
+  font-size:20px;
+}
+#navbar a:hover
+{
+   
+color:#444444;
+
+}
+#main
+{
+ background-color:#222222;
+width:900px;
+//height:800px;
+margin-left:100px;
+ display:inline-block;
+-webkit-border-radius: 30px 30px 0px 0px;
+-moz-border-radius: 30px 30px 0px 0px;
+border-radius: 30px 30px 0px 0px;
+}
+#main p.msg
+{
+margin:15px;
+font-size:20px;
+color:#ffffff;
+}
+#column_left
+{
+ background-color:#ffffff;
+width:600px;
+height:1000px;
+// margin-right:20px;
+ float:left;
+//border-right-style:solid;
+}
+#column_right
+{
+ background-color:#ffffff;
+width:300px; 
+height:1000px;
+float:left;
+}
+
+
+#footer{
+clear:both; 
+background-color:#696969;
+//width:760px;
+ //display:block; 
+ //margin-right:20px;
+height:64px;
+}
+#footer p
+{
+margin:50px;
+//margin-top:50px;
+}
+
+#bluebox{
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+border:1px 
+solid #73b4f8;
+margin:20px;
+}
+#bluebox p
+{
+margin:10px;
+font-size:15px;
+}
+#bluebox img
+{
+height:180px;
+width:100px;
+padding-right:15px;
+float:left;
+}
+#bluebox p.title
+{
+font-size:17px;
+color:#000090;
+}
+#bluebox a
+{
+    color:#0000bb;
+text-decoration: none;
+ }
